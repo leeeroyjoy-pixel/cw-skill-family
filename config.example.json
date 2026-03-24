@@ -1,0 +1,17 @@
+{
+  "exchange": "coinw",
+  "baseUrl": "https://api.coinw.com",
+  "dry_run_default": true,
+  "require_confirm_for_live": true,
+  "allowed_symbols": ["BTCUSDT", "ETHUSDT", "SOLUSDT"],
+  "spot_max_quote_per_order": 200,
+  "futures_max_margin_per_order": 100,
+  "max_leverage_by_symbol": {
+    "BTCUSDT": 5,
+    "ETHUSDT": 4,
+    "SOLUSDT": 3
+  },
+  "timeouts": {
+    "request_ms": 10000
+  }
+}

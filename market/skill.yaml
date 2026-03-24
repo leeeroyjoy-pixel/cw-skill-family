@@ -1,0 +1,15 @@
+name: cw-market-skill
+description: CoinW readonly market data skill
+version: 0.1.0
+
+capabilities:
+  - get_spot_symbols
+  - get_futures_symbols
+  - get_ticker
+  - get_all_tickers
+  - get_klines
+  - get_orderbook
+  - get_futures_instruments
+
+permissions:
+  - readonly

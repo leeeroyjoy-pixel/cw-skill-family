@@ -1,0 +1,15 @@
+name: cw-execution-skill
+description: CoinW semi-automatic execution skill with risk guard
+version: 0.1.0
+
+capabilities:
+  - spot_buy_by_quote
+  - spot_sell_by_base
+  - open_futures_long
+  - open_futures_short
+  - close_futures_position
+  - cancel_all_orders
+
+permissions:
+  - trade
+  - risk-guard

@@ -1,0 +1,10 @@
+{
+  "tool": "cw-execution-skill.open_futures_long",
+  "input": {
+    "symbol": "BTCUSDT",
+    "margin_usdt": 50,
+    "leverage": 2,
+    "dry_run": true,
+    "confirm": false
+  }
+}

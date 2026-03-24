@@ -1,0 +1,9 @@
+{
+  "tool": "cw-market-skill.get_klines",
+  "input": {
+    "symbol": "BTCUSDT",
+    "market": "spot",
+    "interval": "5m",
+    "limit": 100
+  }
+}
