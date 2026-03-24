@@ -1,0 +1,11 @@
+name: cw-account-skill
+description: CoinW private account readonly skill
+version: 0.1.0-draft
+
+capabilities:
+  - get_spot_balances
+  - get_futures_account
+  - get_positions
+
+permissions:
+  - account-read
