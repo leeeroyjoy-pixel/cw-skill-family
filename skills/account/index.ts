@@ -1,1 +1,1 @@
-export * from '../../account/index';
+export * from './src/index';

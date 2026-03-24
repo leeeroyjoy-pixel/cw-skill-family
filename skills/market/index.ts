@@ -1,1 +1,1 @@
-export * from '../../market/index';
+export * from './src/index';
